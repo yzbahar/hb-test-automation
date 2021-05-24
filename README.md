@@ -4,6 +4,12 @@ Cucumber-Java Skeleton kullanılarak hepsiburada test caseleri yazılmıştır.
 
 Çalıştırmak için
 
+Chrome driver dosya path ini değiştirmelisiniz.
+
+```
+/java/drivers/Driver.java 
+```  
+
 Maven:
 
     mvn test
