@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: io.cucumber.skeleton.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 23.402 s <<< FAILURE! - in io.cucumber.skeleton.RunCucumberTest
+Adding a product to basket(Adding product)  Time elapsed: 12.811 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"Add product to basket" matches more than one step definition:
+  "^Add product to basket" in io.cucumber.skeleton.AddBasketStepDefinitions.add_product_to_basket()
+  "^Add product to basket$" in io.cucumber.skeleton.CheckoutStepDefinitions.add_product()
+
+Search the product and add to basket(Checkout product)  Time elapsed: 3.804 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Bahars-MacBook-Pro.local', ip: 'fe80:0:0:0:14be:6b1a:5630:b3c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3.1', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/wg/r7hs6lc90fs...}, goog:chromeOptions: {debuggerAddress: localhost:59453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8832272521350cd3fc52537b3f98fc67
+
